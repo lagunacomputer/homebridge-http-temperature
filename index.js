@@ -4,7 +4,7 @@ var request = require('sync-request');
 module.exports = function (homebridge) {
    Service = homebridge.hap.Service;
    Characteristic = homebridge.hap.Characteristic;
-   homebridge.registerAccessory("homebridge-http-temperature", "HttpTemperature", HttpTemperature);
+   homebridge.registerAccessory("homebridge-http-temperature", "Light", HttpTemperature);
 }
 
 
